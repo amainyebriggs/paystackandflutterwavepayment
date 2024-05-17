@@ -1,17 +1,26 @@
  
-This is an implementation of paystack and flutterwave in react native
+<p style="font-weight:bold;">This is an implementation of paystack and flutterwave in react native
+<br>
+
 
 * note:this module depends on react-native-webview
+<br>
+
 
 Step 1:npm install react-native-webview for npm yarn install react-native-webview for yarn add react-native-webview
-step 2: copy payment to project root directory
+<br>
+step 2: copy payment to project root directory.
+<br>
+
 step 3:   import Makepayments from './payments';
+<br>
 
 
 
 examples
 
-Example 1 paystack:
+
+<h3 style="font-weight:bold;">Example 1 paystack:</h3>
 
 
 ```js
@@ -62,8 +71,11 @@ buttonclick=="true"?
 ```
 
 
-Example 2 flutterwave:
 
+<h3 style="font-weight:bold;">Example 2 flutterwave:</h3>
+
+
+```js
 
 import React, { useState, useEffect, useContext } from 'react';
 import { Component } from 'react';
@@ -108,9 +120,12 @@ buttonclick=="true"?
 
       );
 }
-
+```
 
 <h3 style="font-weight:bold;">Example 3 both(paystack & flutterwave):</h3>
+
+
+```js
 
 import React, { useState, useEffect, useContext } from 'react';
 import { Component } from 'react';
@@ -155,15 +170,18 @@ buttonclick=="true"?
 
       );
 }
+```
 
-
-* things to note *
-
-the properties of senddatatowebview,
-Name: this is customers name
-appname:is your application name, this is optional
-email:customers email
+* things to note in the properties of senddatatowebview,
+<br>
+Name: this is customers name.
+<br>
+appname:is your application name, this is optional.
+<br>
+email:customers email.
+<br>
 amount:amount to receive from customers.
+<br>
 payment_channel_option:paystack,flutterwave or both must be seperated by comma(,).
-
-
+<br>
+</p>
