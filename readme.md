@@ -107,7 +107,7 @@ buttonclick=="true"?
 }
 
 
-Example 3 both(paystack & flutterwave):
+<h3 style="font-weight:bold;">Example 3 both(paystack & flutterwave):</h3>
 
 import React, { useState, useEffect, useContext } from 'react';
 import { Component } from 'react';
