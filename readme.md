@@ -13,6 +13,9 @@ examples
 
 Example 1 paystack:
 
+
+```js
+
 import React, { useState, useEffect, useContext } from 'react';
 import { Component } from 'react';
 import {WebView} from 'react-native-webview';
@@ -56,7 +59,7 @@ buttonclick=="true"?
 
       );
 }
-
+```
 
 
 Example 2 flutterwave:
